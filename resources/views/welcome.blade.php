@@ -51,7 +51,7 @@
     <!-- Main Content -->
     <main class="w-full">
         <section id="welcome" class="h-screen flex flex-col justify-center items-center">
-            <h2 class="text-cWhite text-8xl max-w-6xl text-center mb-8 font-bold">
+            <h2 class="text-cBlack dark:text-cWhite text-8xl max-w-6xl text-center mb-8 font-bold">
                 Welcome to <span
                     class="bg-gradient-to-r from-cRed to-cBlack dark:to-cWhite bg-clip-text text-transparent">CordiSimple</span>
                 the best plataform for managing <span
@@ -137,13 +137,13 @@
                     Get Started
                 </a>
             </div>
-            <footer class="flex justify-around items-center h-20 mt-8 w-full bg-cBlack">
-                <div class="flex items-center text-cWhite text-2xl">
+            <footer class="flex justify-around items-center h-20 mt-8 w-full bg-cWhite dark:bg-cBlack border-t-2 border-cGray dark:border-cWhite">
+                <div class="flex items-center text-cBlack dark:text-cWhite text-2xl">
                     CordiSimple
                 </div>
                 <div class="flex items-center gap-4">
-                    <a href="https://github.com/Jhon-Develop/CordiSimple" class="text-cWhite text-lg"> Github </a>
-                    <a href="" class="text-cWhite text-lg"> Gmail </a>
+                    <a href="https://github.com/Jhon-Develop/CordiSimple" class="text-cBlack dark:text-cWhite text-lg"> Github </a>
+                    <a href="" class="text-cBlack dark:text-cWhite text-lg"> Gmail </a>
 
                 </div>
             </footer>
