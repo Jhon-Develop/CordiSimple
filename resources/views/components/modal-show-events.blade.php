@@ -23,7 +23,7 @@
                 <p><span class="font-bold">Created By: </span>{{ $event->user?->name ?? 'Name is not available' }}</p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-soft btn-secondary"
+                <button type="button" class="btn btn-soft btn-warning"
                     data-overlay="#modal-show{{ $event->id }}">Close</button>
             </div>
         </div>

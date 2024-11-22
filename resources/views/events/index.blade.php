@@ -6,7 +6,7 @@
     </div>
     {{-- create event button --}}
     <div class="flex justify-end m-6">
-        <button type="button" class="btn btn-gradient btn-warning" aria-haspopup="dialog" aria-expanded="false"
+        <button type="button" class="btn btn-gradient btn-success" aria-haspopup="dialog" aria-expanded="false"
             aria-controls="modal-create{{ 0 }}" data-overlay="#modal-create{{ 0 }}">
             <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
                 <g fill="none">
