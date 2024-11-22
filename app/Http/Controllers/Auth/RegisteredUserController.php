@@ -56,7 +56,7 @@ class RegisteredUserController extends Controller
         // Log the user in
         Auth::login($user);
     
-        return redirect(route('dashboard'));
+        return redirect(route('events.available'));
     }
     
 }
